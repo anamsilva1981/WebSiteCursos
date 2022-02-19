@@ -95,3 +95,17 @@ span{
 .links-cursos img{/*Capa do curso*/
     width: 70px;
 }
+
+
+#sobre{
+    text-align: center;    
+}
+
+#sobre h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 26px;
+}
+
+#sobre p{
+    
+}
