@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <title>CursosGratuitos</title>
+</head>
+<body>
+    <header>
+        <div class="center">
+            <div class="logo"> 
+                <img src="../img/logo.png"/></div>
+                <div class="menu">
+                    <a href="../index.html">Home</a>
+                    <a href="./sobre.html">Sobre</a>
+                    <a href="./cursos.html">Cursos</a>
+                    <a href="#">Contato</a>
+                </div><!--menu-->
+        </div><!-- center-->
+    </header>
+
+    <h1 id="tito">Formulario de Inscrição</h1>
+   <section class="formu">
+            
+        <form action="" method="post">
+            <div class="form_jan">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" />
+            </div>
+            <div class="form_jan">
+                <label for="mail">E-mail:</label>
+                <input type="email" id="mail" />
+            </div>
+            <div class="form_jan">
+                <label for="curso">Escolha o Curso</label><br><br>
+                <input type="radio" name="front" value="a" checked>FrontEnd <br>
+                <input type="radio" name="back" value="b">BackEnd <br>
+                <input type="radio" name="full" value="c">FullStack <br>
+            </div>
+
+            <div class="form_jan">
+                <label>Concordo em receber propagandas de parceiros  </label>
+                <input type="checkbox" name="propaganda" value="s"> Sim
+            </div>
+            <div class="form_jan">
+                <label for="msg">Mensagem:</label>
+                <textarea id="msg"></textarea>
+            </div>
+            <div class="button">
+                <button type="submit">Enviar sua mensagem</button>
+            </div>
+
+        </form>
+
+   </section>
+
+</body>
+
+</html>

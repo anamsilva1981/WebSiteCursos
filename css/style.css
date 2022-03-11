@@ -117,3 +117,37 @@ span{
     flex-wrap: wrap;
     justify-content: space-around;
 }
+
+.tabela{
+    border: 20px;
+}
+
+.formu{
+    text-align: left;
+    margin: 2px;
+}
+
+.form_jan{
+    max-width: 50%;
+	margin: 0 auto;
+	border: 10px solid rgb(59, 114, 167);
+    line-height: 20px;
+    font-size: 14px;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+.button{
+    margin: 10px;
+    text-align: center;
+    color: #fff;
+    border-radius: 20px;
+    text-shadow: none;
+}
+
+#tito{
+    text-align: center;
+    line-height: 70px;
+
+
+}
